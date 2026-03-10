@@ -8,7 +8,7 @@
     <title>Minitask 1 html</title>
 </head>
 <body bgcolor ="white-grey">
-    <h1> Koda Batch 7</h1>
+    <h1 align ="center">Koda Batch 7</h1>
     <h2> Belajar html Day 1</h2>
     <div>
         <p><b> HTML (HyperText Markup Language)</b> adalah bahasa markup standar 
@@ -27,22 +27,67 @@
         <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</i>
             <u>expedita recusandae eos sint aspernatur.</u>
             <mark>Iusto beatae fugiat aut temporibus magni.</p></mark></p>
-            <b>Berdasarkan Perkembangan Versi</b>
-        <ol>
-            <li>HTML 1.0 (1991) </li>
-            <li>HTML 2.0 (1995)</li>
-            <li>HTML 3.0 & 3.2</li>
-            <li>HTML 4.01 (1999): </li>
-            <li>XHTML 1.0</li>
-            <li>HTML5 (2014-Sekarang)</li>
+            
+        <table border="1">
+        <tr>
+        <th><b>Berdasarkan Perkembangan Versi</b></th>
+  </tr>
+         <ol>
+
+    <tr><th><li>HTML 1.0 (1991) </li></tr><th>
+    <tr><th><li>HTML 2.0 (1995)</li></tr><th>
+    <tr><th><li>HTML 4.01 (1999)</li></tr><th>
+    <tr><th><li>XHTML 1.0</li></tr><th>
+    <tr><li>HTML5 (2014-Sekarang)</li></tr>
+</table>
+ 
         </ol>
             <b>Penjelasan lebih lengkap Klik <a href="file:///d%3A/Bootcamp%20Koda/Html/Day1/minitask/html_01.html">disini</a>
             <br>Sumber Referensi <a href="https://www.exabytes.co.id/blog/pengertian-html/" target = "blank">disini</a>
             </b>
         <ul>
-            <button>html</button>
+            <button class="favorite styled" type="button">Add to favorites</button>
+            <button >html</button>
             <button>coba</button>
             <button>tes</button>
+            <dialog id="dialog">
+  <button type="button" id="close">Close dialog</button>
+</dialog>
+
+<p><button id="open">Open dialog</button></p>
+<p><button id="alert">Trigger alert</button></p>
+<p id="paragraph" class="green" contenteditable>Sample Paragraph</p>
+<input type="button" value="Show paragraph attribute name and value" />
+<pre id="result"></pre>
+
+<table></table>
+<label for="name">Username:</label>
+<input
+  type="text"
+  id="name"
+  name="name"
+  size="10" />
+<br>
+<label for="pass">Password (max 8 characters):</label>
+<input
+  type="text"
+  id="name"
+  name="name"
+  required
+  maxlength="8"
+  size="10" />
+
+<p>Silahkan Pilih Hobi yang dilakukan :</p>
+<form>
+    <label for="id-checkbox">Olahraga:</label>
+    <input type="checkbox" id="id-checkbox" /><br>
+    <label for="id-checkbox">Gaming:</label>
+    <input type="checkbox" id="id-checkbox" /><br>
+    <label for="id-checkbox">Reading:</label>
+    <input type="checkbox" id="id-checkbox" />
+</form>
+
+<div id="output-box"></div>
         </ul>
     </div>
     <img src="logo.png" alt = "ini gambar" width="200" height="200">
